@@ -10,7 +10,7 @@
 // --- generator ---------------------------------------------------------------
 
 @mixin mq($args...) {
-  $media-type: 'only screen';
+  $media-type: 'screen';
   $media-type-key: 'media-type';
   $args: keywords($args);
   $expr: '';
